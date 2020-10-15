@@ -1,0 +1,20 @@
+{
+  "generator-sap-partner-eng": {
+    "package_version": "0.3.8",
+    "project_name": "mta_python",
+    "app_name": "py3",
+    "app_desc": "MTA with Python3 module",
+    "router_name": "py3-app",
+    "domain_name": "cfapps.us10.hana.ondemand.com",
+    "router_path": "app",
+    "database_path": "db",
+    "services_path": "srv",
+    "uaa_res_name": "py3-uaa",
+    "uaa_svc_name": "PY3_UAA",
+    "python_module_name": "py3-pyt",
+    "python_module_dir": "python",
+    "python_module_api": "py3_pyt_api",
+    "python_module_be": "py3_pyt_be",
+    "python_module_route": "python"
+  }
+}
