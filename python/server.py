@@ -74,6 +74,16 @@ def hello_world():
 
     return output
     
+@app.route('/python/')
+def hello_python():
+    output = '<strong>Hello World! I am instance ' + str(os.getenv("CF_INSTANCE_INDEX", 0)) + '</strong> Try these links.</br>\n'
+    output += '<a href="/env">/env</a><br />\n'
+    output += '<a href="/python/links">/python/links</a><br />\n'
+    output += '<a href="/python/test">/python/test</a><br />\n'
+    output += '<a href="/python/db_only">/python/db_only</a><br />\n'
+
+    return output
+    
 # Satisfy browser requests for favicon.ico so that don't return 404
 @app.route('/favicon.ico')
 def favicon():

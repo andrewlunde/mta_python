@@ -40,6 +40,7 @@ cf deploy mta_archives/py3.mtar -f
 # Subsequent Build+Deploy Commands:
 ```
 mbt build -p=cf -t=mta_archives --mtar=py3.mtar ; cf deploy mta_archives/py3.mtar -f
+
 ```
 
 # Undeploy Command:

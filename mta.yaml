@@ -89,6 +89,9 @@ resources:
       #path: ./cds-security.json
       #path: ./xs-security.json
       service: xsuaa
+      # XSA
+      #service-plan: default
+      # Cloud Foundry
       service-plan: application
       service-name: PY3_UAA
       xsuaa-app: ${space}-~{Router_api/application}
